@@ -5,11 +5,12 @@
     <meta name="viewport" content="width-device-width, initial-scale=1">
     <title>Business project</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
 <body>
-    <nav id="navagation" class="navbar navbar-default navbar fixed-top affix-top" roll="navagation">
+    <nav id="navagation" class="navbar navbar-default navbar fixed-top" roll="navagation">
         <div class="container">
             <div class= "navbar-header">
                 <a class="navbar-brand" href="#">
@@ -18,18 +19,104 @@
             </div>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active" id="home"><a href="#">Home</a></li>
                     <li><a href="#">Products</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services<span class="caret"></span></a>
-                    <ul class="drop-menu">
-                        <li> <a href="#">Engage</a></li>
-                        <li> <a href="#">Pontificate</a></li>
-                        <li> <a href="#">Synergize</a></li>
-                    </ul>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Engage</a>
+                          <a class="dropdown-item" href="#">pontificate</a>
+                          <a class="dropdown-item" href="#">Synergizes</a>
+                        </div> 
+                      </li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> 
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Drammactically Engage</h1>
+                <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+                <button type="button" class="btn btn-lg">Engage Now</button>
+            </div>
+        </div>
+    </header>
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8-offset">
+                    <span class="glyphicon glyphicon-apple"></span>
+                    <h2>Completely synergize resource taxing relationships</h2>
+                    <p class="text-light">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+
+                </div>
+            </di>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle" src="images/microphone.jpg" alt="microphone">
+                </div>
+                <div class="col-sm-6">
+                    <h2>Best in Class</h2>
+                    <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Superior Quality</h2>
+                    <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-responsive img-circle" src="images/iphone.jpg" alt="phone in hand">
+                    <a href="#home" type="button" class="btn btn-lg">Test It</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 promo-item item-1">
+                <h2>Unleash</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 promo-item item-2">
+                <h2>Synergize</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 promo-item item-3">
+                <h2>Procastinate</h2>
+            </div>
+        </div>
+    </div>
+    <section class="content-3">
+        <div class="container">
+            <div class="row">
+                <span class="glyphicon glyphicon-push-pin"></span><br>
+                <h2>Sanity Check</h2>
+                <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+                <a href="#home" type="button" class="btn btn-lg">Check Now</a>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer text-center">
+        <h2>Contacxt Us</h2><br>
+        <span class="glyphicon glyphicon-phone"></span><br>
+        <p>+1(23) 456 7890</p><br>
+        <span class="glyphicon glyphicon-envelope"></span><br>
+        <p>info@example.com</p>
+    </footer><br>
+    <div class="footer-copyright text-center">Copyright © Example.com 2015</div>
 </body>
