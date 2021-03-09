@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business project</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -13,7 +13,7 @@
 <body>
     <div class="bg-image">
         <nav id="navagation" class="navbar navbar-default navbar fixed-top" roll="navagation">
-            <div class="container">
+            <div class="conta iner">
                 <div class= "navbar-header">
                     <a class="navbar-brand" href="#">
                         <span class="glyphicon glyphicon-fire"> LOGO</span>   
@@ -39,11 +39,11 @@
             </div>
         </nav> 
         <header>
-            <div class="container" id="header">
+            <div class="container-fluid" id="header">
                 <div class="header-content-inner">
                     <h1>Drammactically Engage</h1>
                     <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
-                    <a href="#" class="btn btn-primary btn-lg">Engage Now</a>
+                    <a href="#" class="btn btn-lg">Engage Now</a>
                     </div>
                 </div>
             </div>
@@ -94,20 +94,25 @@
                 </div>
             </div>
         </div>
-        <div class="content4">
-            <div class="row">
-                <span style="font-size: 30px;" class="glyphicon glyphicon-push-pin"></span><br>
+        <div class="container" id="content4">
+                <div id="pushpin">
+                    <span style="font-size: 30px;" class="glyphicon glyphicon-push-pin"></span>
+                </div>
                 <h2>Sanity Check</h2>
                 <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                <a href="#home" type="button" class="btn btn-lg">Check Now</a>
-            </div>
+                <div id="button2">
+                    <a href="#home" type="button"  class="btn btn-lg">Check Now</a>
+                </div>
         </div>
-        <footer class="page-footer text-center">
+        <footer class="page-footer text-center" id="footer">
             <h2>Contacxt Us</h2><br>
+            <div id="phone">
             <span class="glyphicon glyphicon-phone"></span><br>
+            </div>
             <p>+1(23) 456 7890</p><br>
             <span class="glyphicon glyphicon-envelope"></span><br>
             <p>info@example.com</p>
-        </footer><br>
-        <div class="copyright text-center">Copyright © Example.com 2015</div>
+            <div class="copyright text-center">Copyright © Example.com 2015</div>
+        </footer>
+        
 </body>

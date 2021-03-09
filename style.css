@@ -1,8 +1,15 @@
+.body{
+    width: 100%;
+    position: absolute;
+}
 #navagation{
 background-color:  rgba(255, 255, 255, 0.15);
 color: ivory;
 text-align: center;
 margin-bottom: 0px;
+padding-left: 80px;
+padding-right: 80px;
+border-style: none;
 
 }
 #header{
@@ -11,8 +18,24 @@ margin-bottom: 0px;
     width: 100%;
 padding-top: 200px;
 margin-left: auto;
-
 text-align: center;
+}
+
+#header h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+#header p{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+li#home.active a{
+    color:rgb(17, 248, 17);
+    background-color:transparent;
 }
 
 /*////////////////////// buttons //////////////////////////*/
@@ -37,6 +60,7 @@ text-align: center;
 margin: auto;
 color:white;
 border-radius: 300px;
+border-color: 0;
     
 }
 .btn2{
@@ -49,23 +73,13 @@ border-radius: 300px;
 
 
 
-/*////////////Buttons//////////////////////////////////*/
 
-#header h1{
-    font-size: 80px;
-    text-align: center;
-    font-family: inherit;
-    font-weight: 100;
-    padding-bottom: 15px;
-}
-#header p{
-    font-size: 16px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.glyphicon {
+/*///////////Glyphicon/////////////////////////////*/
+span.glyphicon.glyphicon-apple {
     color:white;
+}
+#content4 .glyphicon{ 
+    color:chartreuse
 }
 
 .dropdown-menu{
@@ -109,7 +123,7 @@ border-radius: 300px;
 #content2.row{
     color: white;
 background-color: black;
-background-size: 100%;
+background-size: 100%1;
 height:550;
 padding-top: 60px;
 padding-bottom: 60px;
@@ -118,6 +132,9 @@ padding-left: 140px;
 line-height: 1.42;
 width:100%;
 border-right: 0px;
+margin-right: 0px;
+margin-left: 0px;
+
 }
 
 #content2, h1{
@@ -134,13 +151,17 @@ border-right: 0px;
     height: 250px;
     margin:0px;
     width:100%;
+    color: white;
 }
 
-
-.row{
-    height:100%;
-    margin-right:0px;
+.item-1 h2{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
 }
+
 .item-1{
     background-image: url(images/writing.jpg);
     background-position: 50% 50%;
@@ -151,43 +172,63 @@ border-right: 0px;
     background-position: 50% 50%;
     height:100%;
 }
+
+
+.item-2 h2{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom:100px ;
+}
+.item-3 h2{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
 .item-3{
     background-image: url(images/pencil.jpg);
     background-position: 50% 50%;
     height:100%;
 }
-.item-1 h2{
-    margin-top:0px;
-    margin-bottom: 0px;
-    vertical-align: middle;
-    
-}
-.item-2 h2{
-    margin-top:0px;
-    margin-bottom: 0px;
-    vertical-align: middle;
-    
-}
-.item-3 h2{
-    margin-top:0px;
-    margin-bottom: 0px;
-    vertical-align:middle;
+.content .row{
+    height:100%;
+    margin-right:0px;
+
     
 }
 
-#home a:link{
-    color:rgb(17, 248, 17);
-    background-color: .15;
+#content4{
+    
+  color:black;
+    align-content: center;
 }
+
+#content4 h2{
+    align-content: center;
+    padding-left: 500px;
+}
+
 .bg-image{
     background-image: url(images/mountain.jpg);
     background-repeat: no-repeat;
     min-height: 100%;
+    width: 100%;
 } 
-    
-span .glyphicon .glyphicon-pushpin{
-    color:chartreuse
+
+#button2{
+    padding-left: 500px;
 }
+#pushpin{
+    align-content: center;
+}
+    
+#footer{
+    background-color: chartreuse;
+    color: white;
+}
+
 
 
 
