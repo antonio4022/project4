@@ -1,41 +1,77 @@
 .body{
     width: 100%;
-    position: absolute;
+    
 }
+.bg-image{
+    background-image: url(images/mountain.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+
+#content4 .glyphicon{ 
+    color:chartreuse
+}
+
+.dropdown-menu{
+    color:white;
+}
+.navbar-header{
+    color:ivory;
+}
+
+   
+.container a{
+    color:white;
+}
+
+.navbar-brand{
+    color:white;
+}
+
 #navagation{
-background-color:  rgba(255, 255, 255, 0.15);
-color: ivory;
+ 
+color: white;
 text-align: center;
-margin-bottom: 0px;
-padding-left: 80px;
-padding-right: 80px;
+margin-bottom: 0;
+background-color: rgba(122, 78, 78, 0.1);
+
 border-style: none;
 
 }
 #header{
-    height:750px;
-    min-height: 100%;
+padding-bottom: 14em;
+    color:white;
     width: 100%;
-padding-top: 200px;
+padding-top: 10em;
 margin-left: auto;
 text-align: center;
 }
 
 #header h1{
+    color: white;
     font-size: 80px;
     text-align: center;
     font-family: inherit;
     font-weight: 100;
-    padding-bottom: 15px;
+    padding-bottom: .2em;
 }
 #header p{
     font-size: 16px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 3em;
+    color: white;
 }
 li#home.active a{
     color:rgb(17, 248, 17);
     background-color:transparent;
+}
+
+#section1{
+    background-color: rgb(131, 216, 46);
+    padding: 5em;
+    text-align: center;
+  
 }
 
 /*////////////////////// buttons //////////////////////////*/
@@ -78,34 +114,12 @@ border-color: 0;
 span.glyphicon.glyphicon-apple {
     color:white;
 }
-#content4 .glyphicon{ 
-    color:chartreuse
-}
 
-.dropdown-menu{
-    color:white;
-}
-.navbar-header{
-    color:ivory;
-}
-
-   
-.container{
-    color:white;
-}
-#section1{
-    background-color: rgb(131, 216, 46);
-    height:350px;
-    text-align: center;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 60px;
-}
 #content{
     color:black;
-    height: 550px;
-    padding-top: 60px;
-    padding-left: 60px;
+    height: 40em;
+    padding-top: 3em;
+    padding-left: 3em;
     line-height: 1.4;
     width:100;
 }
@@ -125,15 +139,15 @@ span.glyphicon.glyphicon-apple {
 background-color: black;
 background-size: 100%1;
 height:550;
-padding-top: 60px;
-padding-bottom: 60px;
-padding-right: 60px;
-padding-left: 140px;
+padding-top: 5em;
+padding-bottom: 2em;
+padding-right: 2em;
+padding-left: 5em;
 line-height: 1.42;
 width:100%;
-border-right: 0px;
-margin-right: 0px;
-margin-left: 0px;
+border-right: 0;
+margin-right: 0;
+margin-left: 0;
 
 }
 
@@ -148,17 +162,17 @@ margin-left: 0px;
 }
 
 #content3{
-    height: 250px;
-    margin:0px;
+    height: 6em;
+    margin:0;
     width:100%;
     color: white;
 }
 
 .item-1 h2{
-    margin-top:0px;
-    margin-bottom: 0px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    margin-top:0;
+    margin-bottom: 0;
+    padding-top: 6em;
+    padding-bottom: 6em;
     
 }
 
@@ -175,16 +189,16 @@ margin-left: 0px;
 
 
 .item-2 h2{
-    margin-top:0px;
-    margin-bottom: 0px;
-    padding-top: 100px;
-    padding-bottom:100px ;
+    margin-top:0;
+    margin-bottom: 0;
+    padding-top: 6em;
+    padding-bottom:6em ;
 }
 .item-3 h2{
     margin-top:0px;
     margin-bottom: 0px;
-    padding-top:100px;
-    padding-bottom: 100px;
+    padding-top:6em;
+    padding-bottom: 6em;
 }
 
 .item-3{
@@ -194,7 +208,7 @@ margin-left: 0px;
 }
 .content .row{
     height:100%;
-    margin-right:0px;
+    margin-right:0;
 
     
 }
@@ -207,18 +221,13 @@ margin-left: 0px;
 
 #content4 h2{
     align-content: center;
-    padding-left: 500px;
+    padding-left: 10em;
 }
 
-.bg-image{
-    background-image: url(images/mountain.jpg);
-    background-repeat: no-repeat;
-    min-height: 100%;
-    width: 100%;
-} 
+ 
 
 #button2{
-    padding-left: 500px;
+    padding-left: 10em;
 }
 #pushpin{
     align-content: center;
