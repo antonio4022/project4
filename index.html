@@ -12,20 +12,26 @@
     </head>
 <body>
     <div class="bg-image">
-        <nav id="navagation" class="navbar navbar-default navbar fixed-top" roll="navagation">
+        <div id="navagation" class="navbar navbar-default navbar fixed-top" roll="navagation">
             <div class="contaniner">
                 <div class= "navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#" id="logo">
                         <span class="glyphicon glyphicon-fire"> LOGO</span>   
                     </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navheadercollapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-                <div class="collapse navbar-collapse" id="menu">
-                    <ul class="nav navbar-nav navbar-right">
+                <div class="collapse navbar-collapse navheadercollapse" id="menu" style="color:white "> 
+                    <ul class=" nav navbar-nav navbar-right" >
                         <li class="active" id="home"><a href="#">Home</a></li>
                         <li><a href="#">Products</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Services
+                            Services<span class="caret"></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Engage</a>
@@ -37,26 +43,25 @@
                     </ul>
                 </div>
             </div>
-        </nav> 
-        <header>
+        </div> 
             <div class="container-fluid" id="header">
-                <div class="header-content-inner">
-                    <h1>Drammactically Engage</h1>
+                <div class="row">
+                    <div class="col-sm-12">
+                         <h1>Drammactically Engage</h1>
+                        </div>
                     <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
                     <a href="#" class="btn btn-lg">Engage Now</a>
-                    </div>
                 </div>
             </div>
         </div>
-        </header>
     </div>
-        <div class="row">
-            <div id="section1">
+        <div class="container" id="row">
+                <div id="apple">
                     <span style="font-size: 50px" class="glyphicon glyphicon-apple"></span>
+                </div>
                 <h2>Completely synergize resource taxing relationships</h2>
                 <p class="text-light">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
             </div>
-        </div>
         <div class="container" id="content">
             <div class="row">
                 <div class="col-sm-6">
@@ -69,27 +74,27 @@
                 </div>
             </div>
         </div>
-        <div class="content-2">
+        <div class="container-fluid">
             <div class="row" id="content2">
-                <div class="col-sm-6">
+                <div class="col-sm-6" id="superior-col">
                     <h2>Superior Quality</h2>
                     <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
                     <a href="#home" type="button" class="btn2 btn2 btn-lg" id="2b">Test It</a>
                 </div>
                 <div class="col-sm-6">
-                    <img class="img-responsive img-circle" src="images/iphone.jpg" alt="phone in hand"> 
+                    <img class="img-responsive img-circle" src="images/iphone.jpg" alt="phone in hand" id="phone"> 
                 </div>
             </div>
         </div>
         <div class="container-fluid text-center" id="content3">
-            <div class="row">
-                <div class="col-md-4 promo-item item-1">
+            <div class="row" id="content3">
+                <div class="col-md-4 col-sm-12 promo-item item-1">
                     <h2>Unleash</h2>
                 </div>
-                <div class="col-md-4 promo-item item-2">
+                <div class="col-md-4 col-sm-12 promo-item item-2">
                     <h2>Synergize</h2>
                 </div>
-                <div class="col-md-4 promo-item item-3">
+                <div class="col-md-4 col-sm-12 promo-item item-3">
                     <h2>Procastinate</h2>
                 </div>
             </div>
@@ -98,8 +103,10 @@
                 <div id="pushpin">
                 <span class="glyphicon glyphicon-pushpin"></span>
                 </div>
-                <h2>Sanity Check</h2>
-                <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+                <div>
+                    <h2>Sanity Check</h2>
+                    <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+                </div>
                 <div id="button2">
                     <a href="#home" type="button"  class="btn btn-lg">Check Now</a>
                 </div>

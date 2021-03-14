@@ -1,9 +1,11 @@
 .body{
     width: 100%;
     position: absolute;
+   
 }
 .container{
     color:white;
+    margin-right: 0;
 }
 .bg-image{
     background-image: url(images/mountain.jpg);
@@ -15,17 +17,24 @@
     color:white;
 }
 
+
 #navagation{
-background-color:  rgba(255, 255, 255, 0.15);
+background-color:  transparent;
 color: ivory;
 text-align: center;
+margin-left: auto;
+margin-right: auto;
 margin-bottom: 0px;
 padding-left: 10em;
 padding-right: 10em;
 border-style: none;
-
 }
+#menu {
+    color:white;
+}
+#logo{ color:white}
 #header{
+    display:flex;
     height:750px;
     min-height: 100%;
     width: 100%;
@@ -33,24 +42,56 @@ padding-top: 200px;
 margin-left: auto;
 text-align: center;
 }
+.row{
+    width: 100%;
+    margin-right: 0;
+}
 
 #header h1{
-    font-size: 80px;
+    
+    color: white;
+    font-size: 10rem;
     text-align: center;
     font-family: inherit;
     font-weight: 100;
     padding-bottom: 15px;
+    background: transparent;
 }
 #header p{
+    color:white;
     font-size: 16px;
     text-align: center;
     padding-bottom: 20px;
+}
+li#menu a{
+    color:white;
 }
 li#home.active a{
     color:rgb(17, 248, 17);
     background-color:transparent;
 }
+#row.container{
+    background-color: chartreuse;
+    padding-left:10rem;
+    padding-right:10rem;
+    padding-top: 5rem;
+    padding-bottom:5rem;
+    margin-left:0;
+    margin-right:0;
+    border-right:0;
+    width: 100%;
+}
+#row.container h2{
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+    text-align: center;
 
+}
+#row.container p{
+    font-size: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
 /*////////////////////// buttons //////////////////////////*/
 
 
@@ -88,8 +129,10 @@ border-color: 0;
 
 
 /*///////////Glyphicon/////////////////////////////*/
-span.glyphicon.glyphicon-apple {
+#apple {
     color:white;
+    text-align: center;
+    
 }
 #content4 .glyphicon{ 
     color:chartreuse
@@ -121,6 +164,7 @@ span.glyphicon.glyphicon-apple {
     height: auto;
     padding-top: 4em;
     padding-left: 2em;
+    padding-bottom: 4em;
     line-height: 1.4;
     width:100%;
 }
@@ -135,44 +179,74 @@ span.glyphicon.glyphicon-apple {
     color:rgb(121, 110, 110)
 }
 #content img{
-    padding-bottom: 3em;
+    padding-bottom:3em;
     padding-right: 3em;
     padding-left: 0;
     size:70%;
 }
-
+.container-fluid{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+#content2{
+    margin-left:0;
+    margin-right:0;
+    width: 100%;
+    padding-right:20px;
+    padding-left:20px;
+    vertical-align: 50%;
+}
 #content2.row{
     color: white;
+
 background-color: black;
 background-size: 100%;
 height:100%;
-padding-top: 1.2em;
-padding-bottom: 1em;
-padding-right: 1em;
-padding-left: 1.2em;
+padding-top: 3em;
+padding-bottom: 2.5em;
+padding-right: 3;
+padding-left: 3;
 line-height: 1.6;
 width:100%;
-border-right: 0px;
-margin-right: 0px;
-margin-left: 0px;
-
+border-right: 0;
+margin-right: 0;
+margin-left: 0;
+vertical-align: 50%;
 }
 
 #content2, h2{
     font-size: 1.75em;
+    padding-left: 5rem;
+    padding-right:3rem;
     
 }
 #content2 p{
     font-size: 0.75em;
     opacity:0.5;
+    padding-left: 5rem;
+    padding-right:3rem;
+}
+#phone{
+    padding-left: 5rem;
+    padding-right:3rem;
+}
+#superior-col{
+    align-items: center;
+    text-align: center;
+    padding-top: 10rem;
+   
 }
 
 
 #content3{
     height: auto;
-    margin:0;
+    margin-left:0;
+    margin-right:0;
     width:100%;
     color: white;
+    padding-left:0;
+    padding-right:0;
 }
 
 .item-1 h2{
@@ -222,17 +296,21 @@ margin-left: 0px;
 
 #content4{
     text-align: center;
+    align-items: center;
     padding-top: 3em;
   color:black;
     padding-left: 1em;
+    margin-left:0;
+    margin-right:0;
+    width:100%;
 }
 #content h2{
-    font-size: 3em;
+    font-size: 5.5em;
     padding-bottom: 1.1em;
 }
 #content p{
     font-weight: lighter;
-    padding-bottom:2em;
+    padding-bottom:4em;
 }
 
 
