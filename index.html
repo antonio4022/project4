@@ -4,31 +4,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business project</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+</head>
 <body>
     <div class="bg-image">
-        <div id="navagation" class="navbar navbar-default navbar fixed-top" roll="navagation">
-            <div class="contaniner">
-                <div class= "navbar-header">
+        <nav class="navbar navbar-custom navbar-fixed-top" id="navagation" roll="navagation">
+            <div class="container">
+                <div class= "navbar-default">
                     <a class="navbar-brand" href="#" id="logo">
                         <span class="glyphicon glyphicon-fire"> LOGO</span>   
                     </a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navheadercollapse">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only">Toggle navagation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse navheadercollapse" id="menu" style="color:white "> 
+                <div class="collapse navbar-collapse navheadercollapse" id="menu"> 
                     <ul class=" nav navbar-nav navbar-right" >
                         <li class="active" id="home"><a href="#">Home</a></li>
-                        <li><a href="#">Products</a></li>
+                        <li><a href="#" >Products</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services<span class="caret"></span>
@@ -43,10 +41,10 @@
                     </ul>
                 </div>
             </div>
-        </div> 
-            <div class="container-fluid" id="header">
-                <div class="row">
-                    <div class="col-sm-12">
+        </nav> 
+            <div class="container" id="header">
+                <div class="container">
+                    <div class="content">
                          <h1>Drammactically Engage</h1>
                         </div>
                     <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
@@ -65,21 +63,21 @@
         <div class="container" id="content">
             <div class="row">
                 <div class="col-sm-6">
-                    <img class="img-responsive img-circle" src="images/microphone.jpg" alt="microphone">
+                    <img class="img-responsive img-circle" src="images/microphone.jpg" id="microphone">
                 </div>
                 <div class="col-sm-6">
                     <h2>Best in Class</h2>
-                    <p class="font-weight-light">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+                    <p class="font2">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
                     <div button type="button" class="btn btn-lg" id="1b">Classify It</div> 
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="black">
             <div class="row" id="content2">
                 <div class="col-sm-6" id="superior-col">
                     <h2>Superior Quality</h2>
                     <p>Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
-                    <a href="#home" type="button" class="btn2 btn2 btn-lg" id="2b">Test It</a>
+                    <a href="#home" type="button" class="btn2 btn-lg" id="2b">Test It</a>
                 </div>
                 <div class="col-sm-6">
                     <img class="img-responsive img-circle" src="images/iphone.jpg" alt="phone in hand" id="phone"> 
@@ -112,7 +110,7 @@
                 </div>
         </div>
         <footer class="page-footer text-center" id="contact">
-            <h2>Contacxt Us</h2><br>
+            <h2>Contact Us</h2><br>
             <div id="phone">
             <span class="glyphicon glyphicon-phone"></span><br>
             </div>
@@ -121,5 +119,13 @@
             <p>info@example.com</p>
             <div class="copyright text-center">Copyright © Example.com 2015</div>
         </footer>
-        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- ------Background color change on scroll--------------- -->
+
+  <script>
+      $(window).scroll(function(){
+ $('nav').toggleClass('scrolled', $(this).scrollTop() > 650);
+ });
+  </script>
 </body>
