@@ -3,14 +3,13 @@
     position: absolute;
    
 }
-.container{
-    color:white;
-    padding-left:0px;
 
-}
 /*-------------navbar styles-----------------------*/
 
 #logo{
+    color:white;
+}
+.collapse.navbar-collapse>li>a{
     color:white;
 }
 
@@ -24,13 +23,17 @@
 .bg-image{
     background-image: url(images/mountain.jpg);
     background-repeat: no-repeat;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
 } 
 
 
+.navbar-brand#navagation.scrolled{
+    color:chartreuse;
+}
+
 #navagation.scrolled{
-    color: white;
+
     background-color:black;
     transition:900ms ease;
    
@@ -41,13 +44,13 @@ li.active#home a{
     background-color:transparent;
 }
 
+
 .dropdown-menu{
+    background-color: transparent;
     color:white;
 }
 
-.navbar-header{
-    color:ivory;
-}
+
 
 #navagation{
   
@@ -108,8 +111,7 @@ align-items: center;
 
 #row.container{
     background-color: chartreuse;
-    padding-left:10rem;
-    padding-right:10rem;
+   
     padding-top: 5rem;
     padding-bottom:5rem;
     margin-left:0;
